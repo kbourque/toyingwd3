@@ -1,1 +1,5 @@
-text:{font-size:36px;}
+.pumpkin {
+    fill: yellow;
+    stroke: orange;
+    stroke-width: 5;
+ }
