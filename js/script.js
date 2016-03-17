@@ -117,8 +117,11 @@ barDemo.selectAll("text.yAxis").
 		// do this AFTER the axes above so that the line is above the tick-lines
 			graph.append("svg:path").attr("d", line(data));
 
-//jQuery
+/* JQUERY FOR SCROLLING OVER IMAGES */
 $(document).ready(function() {
+
+	/* This is for the first set of images */
+
 	$('.playerimg').hover(makeBigger, returnToOriginalSize);
 
 	function makeBigger() {
@@ -127,6 +130,8 @@ $(document).ready(function() {
 	function returnToOriginalSize() {
 	    $(this).css({height: "", width: ""});
 	}
+
+	/* This is for the second set of images */
 
 	var openGif = $(".playerimg2").attr("src");
 	var closedGif = openGif.replace("../images/baberuth2.png", "../images/baberuthtext.svg");
