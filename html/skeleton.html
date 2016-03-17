@@ -4,11 +4,15 @@
    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
    <title>My project</title>
    <script type="text/javascript" src="../d3.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
    <link href="../css/style.css" rel="stylesheet">
  </head>
  <body>
-   <div id="rect-demo"></div>
+ 	<!-- BAR GRAPH -->
+ 	<h1> This is a demo of a bar graph. </h1>
    <div id="bar-demo"></div>
+   <!-- SVG DEMOS -->
+   <h1>This is toying around with making SVG images. (used often with D3)</h1>
    <svg height="50">
     	<rect x="0" y="0" width="500" height="50"/>
 	</svg>
@@ -25,7 +29,27 @@
 			<rect x="80" y="20" width="30" height="30" fill="red"/>
 		</svg>
 	</div>
-   </div>
+	<!-- PLAYER SCROLL V1 -->
+	<h1> These images get larger when you scroll over them. </h1>
+ <div id = "players">
+ 	<img src="../images/baberuth.png" alt="icon" class="playerimg" id ="firstplayer">
+ 	<img src="../images/baberuth.png" alt="icon" class="playerimg">
+ 	<img src="../images/baberuth.png" alt="icon" class="playerimg">
+ 	<img src="../images/baberuth.png" alt="icon" class="playerimg">
+ 	<img src="../images/baberuth.png" alt="icon" class="playerimg">
+	</div>
+	<!-- PLAYER SCROLL V2 -->
+	<h1> These images fade when you scroll over them. </h1>
+<div id = "players2">
+	<img src="../images/baberuth2.png" alt="icon" class="playerimg2" id ="firstplayer">
+ 	<img src="../images/baberuth2.png" alt="icon" class="playerimg2">
+ 	<img src="../images/baberuth2.png" alt="icon" class="playerimg2">
+ 	<img src="../images/baberuth2.png" alt="icon" class="playerimg2">
+ 	<img src="../images/baberuth2.png" alt="icon" class="playerimg2">
+</div>
+	<!-- LINE GRAPH -->
+	<h1> This is a demo of a line graph. </h1>
+	<div id="graph" class="aGraph"></div>
    <script type="text/javascript" src="../js/script.js"></script>
  </body>
 </html>

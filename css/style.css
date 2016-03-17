@@ -1,5 +1,49 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .pumpkin {
     fill: yellow;
     stroke: orange;
     stroke-width: 5;
  }
+.playerimg {
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+}
+
+.playerimg2 {
+	height: 100px;
+	width: 100px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+/* CSS FOR GRAPH */
+path {
+	stroke: blue;
+	stroke-width: 1;
+	fill: none;
+	}
+		
+	.axis {
+	  shape-rendering: crispEdges;
+	}
+
+	.x.axis line {
+	  stroke: grey;
+	}
+
+	.x.axis .minor {
+	  stroke-opacity: .5;
+	}
+
+	.x.axis path {
+	  display: none;
+	}
+
+	.y.axis line, .y.axis path {
+	  fill: none;
+	  stroke: #000;
+	}
